@@ -48,7 +48,8 @@ h2 {
     color: #b60505dc;
 }
 .campo {
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 15px;
     text-align: left;
 }
