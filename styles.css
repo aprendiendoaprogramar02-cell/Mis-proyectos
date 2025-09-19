@@ -48,8 +48,19 @@ h2 {
     color: #b60505dc;
 }
 .campo {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+    display: block;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.campo input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 form { text-align: center; }
