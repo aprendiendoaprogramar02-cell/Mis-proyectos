@@ -18,7 +18,7 @@ body {
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgb(0, 0, 0);
-    width: 90%;              /* 📱 ocupa casi toda la pantalla en móvil */
+    width: 70%;              /* 📱 ocupa casi toda la pantalla en móvil */
     max-width: 400px;        /* 💻 no pasa de este ancho en PC */
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.164);
