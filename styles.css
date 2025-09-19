@@ -2,43 +2,37 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100dvh;
+    height: 100vh;
     margin: 0;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
 }
+
 .IniciarSesion {
     background-color: #cac7c723;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgb(0, 0, 0);
-    width: 250px;
-    max-width: 400px;
+    width: 90%;              /* 📱 ocupa casi toda la pantalla en móvil */
+    max-width: 400px;        /* 💻 no pasa de este ancho en PC */
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.164);
 }
- input {
-        background-color:rgba(245, 245, 245, 0.11);
-        border-color:rgba(7, 7, 7, 0.671);
-    }
-body {
-    text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: #ffffff;
-    font-size: 18px;
+
+.IniciarSesion input {
+    background-color: rgba(245, 245, 245, 0.11);
+    border-color: rgba(7, 7, 7, 0.671);
+    width: 100%;             /* 👉 se estiran en el contenedor */
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
 }
 
-body {
-    background-image: url(fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-@media (max-width: 768px) {
-    .IniciarSesion {
-        width: 90%;
-        max-width: 300px;
-        padding: 15px;
-        font-size: 14px;
-    }
-}
 button {
     background-color: #cac7c723;
     color: white;
@@ -48,6 +42,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
 h2 {
     color: #b60505dc;
 }
