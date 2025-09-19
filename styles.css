@@ -58,10 +58,6 @@ h2 {
     margin-bottom: 5px;
     text-align: left;
 }
-.campo.recordarme {
-    flex-direction: row;
-    align-items: center; gap: 5px;
-}
 .campo input{
     width: 95%;
     padding: 8px;
