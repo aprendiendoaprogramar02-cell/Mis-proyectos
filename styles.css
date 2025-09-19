@@ -68,8 +68,4 @@ h2 {
     border-radius: 5px;
     border: 1px solid #ccc;
 }
-button {
-    display: block;
-    margin-top: 10px;
-}
 form { text-align: left; }
