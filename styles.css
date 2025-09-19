@@ -55,7 +55,6 @@ h2 {
 .campo label {
     display: block;
     margin-bottom: 5px;
-    text-align: left;
 }
 .campo input{
     width: 95%;
