@@ -22,11 +22,11 @@ body {
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.164);
     display: block;
-}
  input {
         background-color:rgba(245, 245, 245, 0.11);
         border-color:rgba(7, 7, 7, 0.671);
     }
+}
 @media (max-width: 768px) {
     .IniciarSesion {
         width: 90%;
@@ -35,6 +35,13 @@ body {
         font-size: 14px;
     }
 }
+.IniciarSesion input {
+    background-color: rgba(245, 245, 245, 0.11);
+    border-color: rgba(7, 7, 7, 0.671);
+    width: 100%;             /* 👉 se estiran en el contenedor */
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
 button {
     align-items: center;
     background-color: #cac7c723;
