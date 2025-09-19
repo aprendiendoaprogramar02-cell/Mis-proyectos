@@ -4,6 +4,13 @@ body {
     align-items: center;
     min-height: 100dvh;
     margin: 0;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+      text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 18px;
 }
 .IniciarSesion {
     background-color: #cac7c723;
@@ -14,23 +21,12 @@ body {
     max-width: 400px;
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.164);
+    display: block;
 }
  input {
         background-color:rgba(245, 245, 245, 0.11);
         border-color:rgba(7, 7, 7, 0.671);
     }
-body {
-    text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: #ffffff;
-    font-size: 18px;
-}
-
-body {
-    background-image: url(fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 @media (max-width: 768px) {
     .IniciarSesion {
         width: 90%;
@@ -51,3 +47,9 @@ button {
 h2 {
     color: #b60505dc;
 }
+.campo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+form { text-align: center; }
