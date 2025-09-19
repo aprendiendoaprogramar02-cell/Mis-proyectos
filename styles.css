@@ -58,9 +58,13 @@ h2 {
     text-align: left;
 }
 .campo input{
-    width: 90%;
+    width: 70%;
     padding: 8px;
-    border-radius: 5px;
+    border-radius: 3px;
     border: 1px solid #ccc;
 }
-form { text-align: center; }
+button {
+    display: block;
+    margin-top: 10px;
+}
+form { text-align: left; }
