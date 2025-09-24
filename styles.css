@@ -70,6 +70,16 @@ h2 {
       margin: 10px 0 20px;
       font-size: 13px;
     }
+    .Register {
+      font-size: 12px;
+      margin-top: 15px;
+      align-items: center;
+      text-align: center;
+    }
+    a, href {
+      color: #dd0202;
+      text-decoration: none;
+    }
 .campo input{
     width: 95%;
     padding: 8px;
